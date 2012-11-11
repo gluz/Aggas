@@ -1,4 +1,5 @@
 Aggas::Application.routes.draw do
+  match  "/l/:id" => "log#insert_update"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
